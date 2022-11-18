@@ -69,6 +69,19 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <distributionManagement>
+
+    <repository>
+
+      <id>github</id>
+
+      <name>devopshint</name>
+
+      <url>https://maven.pkg.github.com/devopshint/maven-project</url>
+
+    </repository>
+
+</distributionManagement>
       </plugins>
     </pluginManagement>
   </build>
